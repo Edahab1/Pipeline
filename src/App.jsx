@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import API from "../../../pipeline.json"; // Assuming your data is stored in pipeline.json
+import API from "../pipeline.json"; // Assuming your data is stored in pipeline.json
 import * as XLSX from "xlsx"; // Import the xlsx library
 
 export default function App() {
